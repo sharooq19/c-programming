@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+    float amount;
+    scanf("%f", &amount);
+    float result = amount * 2.05;
+    printf("%.2f\n", result);
+    return 0;
+}
